@@ -29,6 +29,7 @@
 <li><a href="#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%80%92%E5%BD%92%E9%81%8D%E5%8E%86">二叉树的递归遍历</a></li>
 <li><a href="#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%BF%AD%E4%BB%A3%E9%81%8D%E5%8E%86">二叉树的迭代遍历</a></li>
 <li><a href="#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E7%BB%9F%E4%B8%80%E8%BF%AD%E4%BB%A3%E6%B3%95">二叉树的统一迭代法</a></li>
+<li><a href="#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86">二叉树的层序遍历</a></li>
 </ul>
 </li>
 </ul>
@@ -404,6 +405,31 @@ traversal(cur-&gt;right, vec); <span class="hljs-comment">// 右</span>
                 st.pop();
                 result.push_back(node-&gt;val);
             }
+        }
+        <span class="hljs-keyword">return</span> result;
+    }
+};
+</code></pre>
+<h3><span id="二叉树的层序遍历"> 二叉树的层序遍历</span></h3>
+<p>层序遍历一个二叉树。就是从左到右一层一层的去遍历二叉树。</p>
+<p>需要借用一个辅助数据结构即队列来实现，队列先进先出，符合一层一层遍历的逻辑。</p>
+<pre class="highlight"><code class="C++"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> {</span>
+<span class="hljs-keyword">public</span>:
+    <span class="hljs-function"><span class="hljs-built_in">vector</span>&lt;<span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt;&gt; <span class="hljs-title">levelOrder</span><span class="hljs-params">(TreeNode* root)</span> </span>{
+        <span class="hljs-built_in">queue</span>&lt;TreeNode*&gt; que;
+        <span class="hljs-keyword">if</span> (root != <span class="hljs-literal">NULL</span>) que.push(root);
+        <span class="hljs-built_in">vector</span>&lt;<span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt;&gt; result;
+        <span class="hljs-keyword">while</span> (!que.empty()) {
+            <span class="hljs-keyword">int</span> <span class="hljs-built_in">size</span> = que.<span class="hljs-built_in">size</span>();
+            <span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; tmp;
+            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-built_in">size</span>; i++) {
+                TreeNode* node = que.front();
+                que.pop();
+                tmp.push_back(node-&gt;val);
+                <span class="hljs-keyword">if</span> (node-&gt;left) que.push(node-&gt;left);
+                <span class="hljs-keyword">if</span> (node-&gt;right) que.push(node-&gt;right);
+            }
+            result.push_back(tmp);
         }
         <span class="hljs-keyword">return</span> result;
     }
