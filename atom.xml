@@ -6,7 +6,7 @@
   <link href="https://kpl0111.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://kpl0111.github.io/blog/"/>
-  <updated>2022-07-04T09:45:12.160Z</updated>
+  <updated>2022-07-25T09:48:17.281Z</updated>
   <id>https://kpl0111.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VSCode+PicGo+Aliyun配置MarkDown图床</title>
+    <link href="https://kpl0111.github.io/blog/2022/07b93436c8.html"/>
+    <id>https://kpl0111.github.io/blog/2022/07b93436c8.html</id>
+    <published>2022-07-25T09:04:42.000Z</published>
+    <updated>2022-07-25T09:48:17.281Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;VSCode作为一款非常轻便的编辑器，以轻量，插件丰富收到大家欢迎，我个人是非常喜欢使用VSCode的，用VSCode去编辑Markdown文件也十分方便，当然Typora在这方便也很受欢迎，但是Typora正式版上线之后要收费，不可避免地会损失一</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>如何利用网易云盘同步歌曲歌词</title>
+    <link href="https://kpl0111.github.io/blog/2022/0762e9162.html"/>
+    <id>https://kpl0111.github.io/blog/2022/0762e9162.html</id>
+    <published>2022-07-25T07:47:47.000Z</published>
+    <updated>2022-07-25T09:02:33.176Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;起源：版权限制一个音乐软件很难拥有所有我们想要的歌曲来源，周杰伦的就只有咪咕有版权，如此一来，就要在各个软件之间切换，很不方便&lt;br&gt;
+而利用网盘可以很好解决这一问题，以网易云举例&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>LeetCode笔记-回溯</title>
@@ -132,7 +179,7 @@
     <link href="https://kpl0111.github.io/blog/2022/06784dd132.html"/>
     <id>https://kpl0111.github.io/blog/2022/06784dd132.html</id>
     <published>2022-06-16T13:16:17.000Z</published>
-    <updated>2022-06-16T13:25:40.537Z</updated>
+    <updated>2022-07-21T06:30:46.166Z</updated>
     
     
       
@@ -488,65 +535,6 @@
     
     
     <category term="MarkDown" scheme="https://kpl0111.github.io/blog/tags/MarkDown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LeetCode笔记-数组</title>
-    <link href="https://kpl0111.github.io/blog/2022/05fcf9ff47.html"/>
-    <id>https://kpl0111.github.io/blog/2022/05fcf9ff47.html</id>
-    <published>2022-05-25T11:55:34.000Z</published>
-    <updated>2022-06-12T10:21:19.129Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本篇为个人笔记，内容或有错误。&lt;br&gt;
-图片部分源于&lt;a href=&quot;https://programmercarl.com/&quot;&gt;代码随想录&lt;/a&gt;，侵删。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;!-- toc --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="LeetCode" scheme="https://kpl0111.github.io/blog/tags/LeetCode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MD5加密算法C++实现</title>
-    <link href="https://kpl0111.github.io/blog/2022/05d90a8c79.html"/>
-    <id>https://kpl0111.github.io/blog/2022/05d90a8c79.html</id>
-    <published>2022-05-23T12:10:38.000Z</published>
-    <updated>2022-06-02T11:07:32.805Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2&gt;&lt;span id=&quot;实验目的&quot;&gt; 实验目的&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;本次实验通过C++编程实现MD5加密算法，通过了解MD5算法加深对Hash函数的认识&lt;/p&gt;
-&lt;h2&gt;&lt;span id=&quot;实验原理&quot;&gt; 实验原理&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;Hash</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Homework" scheme="https://kpl0111.github.io/blog/tags/Homework/"/>
-    
-    <category term="密码学" scheme="https://kpl0111.github.io/blog/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
-    
-    <category term="MD5" scheme="https://kpl0111.github.io/blog/tags/MD5/"/>
     
   </entry>
   
